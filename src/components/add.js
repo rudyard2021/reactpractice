@@ -11,7 +11,7 @@ function Add(props){
 
         // con Link evitamos reload de paginas
         <Link to="/exercise/new">
-            <img src={addImg} className="add-pages"/>
+            <img src={addImg} className="add-pages" alt="agregar nueva pagina"/>
         </Link>
     );
 }
