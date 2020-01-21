@@ -2,14 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-
-import Excercises from './pages/exeercises';
+import App from './components/app';
 
 
 const container = document.getElementById('root');
 
 ReactDOM.render(
-    <Excercises/>,
+    <App/>,
     container
 );
 
