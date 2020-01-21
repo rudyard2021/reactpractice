@@ -2,25 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import Card from './components/card';
-import Welcome from './components/welcome';
+
+import Excercises from './pages/exeercises';
 
 
 const container = document.getElementById('root');
 
 ReactDOM.render(
-    <div>
-        <Welcome
-            username="Edwin Flores"
-        />
-        <Card
-            title="Technique Guides"
-            description="Learn amazin street workout and calisthenie."
-            img=""
-            leftColor="#A74CF2"
-            rightColor="#617BFB"
-        />
-    </div>,
+    <Excercises/>,
     container
 );
 
