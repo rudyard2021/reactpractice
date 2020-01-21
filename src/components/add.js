@@ -8,6 +8,8 @@ function Add(props){
         // <a href="/exercise/new">
         //     <img src={addImg} className="add-pages"/>
         // </a>
+
+        // con Link evitamos reload de paginas
         <Link to="/exercise/new">
             <img src={addImg} className="add-pages"/>
         </Link>
